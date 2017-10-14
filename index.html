@@ -928,7 +928,9 @@ var _wpmejsSettings = {"pluginPath":"\/x\/wp-includes\/js\/mediaelement\/"};
   </script>
 
 <script type="text/javascript">
-   alert('hi')
+     $(window).load(function() {
+     alert("LOADED")
+  });
   window.addEventListener('keydown', function(e){
     if(e.ctrlKey){
       e.preventDefault();
